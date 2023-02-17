@@ -1,0 +1,39 @@
+name: workmanager_example
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.6
+  http: ^0.13.5
+  intl: ^0.17.0
+  location: ^4.4.0
+  sqflite: ^2.2.3
+  fluttertoast: ^8.1.1
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  workmanager: ^0.5.1
+  geolocator: ^9.0.2
+  get_it: ^7.2.0
+  webview_flutter: ^4.0.2
+  dio: ^5.0.0
+  google_maps_flutter: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
